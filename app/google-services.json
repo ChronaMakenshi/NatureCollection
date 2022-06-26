@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "701059892879",
+    "firebase_url": "https://nature-collection-5a6d5-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "nature-collection-5a6d5",
+    "storage_bucket": "nature-collection-5a6d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701059892879:android:b3651e5b2e652bfdce52fa",
+        "android_client_info": {
+          "package_name": "fr.chrona.naturecollection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701059892879-2mvvg1enm3as8au309jjp4ontutc2271.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPt6Abnir0bEsq6MZ6OSX4fgLDJ5URQGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701059892879-2mvvg1enm3as8au309jjp4ontutc2271.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

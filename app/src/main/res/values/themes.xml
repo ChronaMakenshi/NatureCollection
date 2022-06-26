@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NatureCollection" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+
+        <item name="android:spinnerItemStyle">@style/DefaultTextStyle</item>
+        <item name="spinnerDropDownItemStyle">@style/DefaultTextStyle</item>
+    </style>
+
+        <!-- Customize your theme here. -->
+        <!-- Creer le composant titre pa defaut. -->
+        <style name="DefaultTextStyle">
+            <item name="android:textColor">@color/lightGray</item>
+            <item name="android:textSize">18sp</item>
+            <item name="android:fontFamily">@font/kanit</item>
+        </style>
+        <!-- Customize your subtitle here. -->
+        <!-- Creer le composant sous titre pa defaut. -->
+        <style name="SubtitleTextStyle" parent="DefaultTextStyle">
+            <item name="android:textColor">@color/darkGray</item>
+        </style>
+        <!-- Customize your title here. -->
+        <!-- Creer le composant sous titre pa defaut. -->
+        <style name="TitleTextStyle" parent="SubtitleTextStyle">
+            <item name="android:textSize">24sp</item>
+        </style>
+
+        <!-- Creer style pour la bottom navaigation view -->
+        <style name="BottomNavigationStyle" parent="Widget.Design.BottomNavigationView">
+            <item name="android:textSize">18sp</item>
+            <item name="fontFamily">@font/kanit</item>
+        </style>
+
+        <!-- personnaliser le barre de navigation -->
+        <style name="BottomNavigationTheme" parent="Widget.Design.BottomNavigationView">
+            <item name="android:textSize">18sp</item>
+            <item name="fontFamily">@font/kanit</item>
+        </style>
+
+
+
+</resources>
